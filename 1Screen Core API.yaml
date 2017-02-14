@@ -1,0 +1,24 @@
+---
+schema_version: 1.0
+service:
+        name: 1Screen Core API
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+        1Screen Distributed Framework and API
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                    documentation: 
+                    - url: https://spscommerce.atlassian.net/wiki/pages/viewpage.action?pageId=93618564
+                      type: free form
+                   
+               
+        contacts:
+                - type: email
+                  id: "Jason Montgomery <jmontgomery@spscommerce.com>"
+                  role: Director, Technology
+                - type: email
+                  id: "Sanjay Singh <ssingh@spscommerce.com>"
+                  role: Product Owner

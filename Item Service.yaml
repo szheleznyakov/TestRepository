@@ -1,0 +1,22 @@
+---
+schema_version: 1.0
+service:
+        name: Item Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://item.spsc.io/docs/api-docs/
+                   
+               
+        contacts:
+                - type: email
+                  id: "Alexander Yegorov <ayegorov@spscommerce.com>"
+                  role: Technical Lead, 
+                - type: email
+                  id: "Nicholas J. Schwalbach <njschwalbach@spscommerce.com>"
+                  role: Product Owner

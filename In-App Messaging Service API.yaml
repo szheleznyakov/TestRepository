@@ -1,0 +1,25 @@
+---
+schema_version: 1.0
+service:
+        name: In-App Messaging Service API
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+        This service allows applications to enable messaging functionality
+
+        DEV version of this service is in development now. API definition is subject for changes
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://s3.amazonaws.com/in-app-messaging/swagger
+                   
+               
+        contacts:
+                - type: email
+                  id: "Valentin Kornukh <vkornukh@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Amy Jones <aejones@spscommerce.com>"
+                  role: Product Owner

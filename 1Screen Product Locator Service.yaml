@@ -1,0 +1,25 @@
+---
+schema_version: 1.0
+service:
+        name: 1Screen Product Locator Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+         Internal serviced used for coordinating product/ item matching during 1Screen data loads of different product master sources (integrates with Master Data Management).
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                    documentation: 
+                    - url: http://1screen-product-locator.spsc.io/swagger/
+                    - url: https://spscommerce.atlassian.net/wiki/pages/viewpage.action?pageId=93618579
+                      type: free form
+                   
+               
+        contacts:
+                - type: email
+                  id: "Jason Montgomery <jmontgomery@spscommerce.com>"
+                  role: Director, Technology
+                - type: email
+                  id: "Sanjay Singh <ssingh@spscommerce.com>"
+                  role: Product Owner

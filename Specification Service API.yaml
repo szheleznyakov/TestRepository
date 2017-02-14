@@ -1,0 +1,22 @@
+---
+schema_version: 1.0
+service:
+        name: Specification Service API
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://s3.amazonaws.com/static-assets.spscommerce.com/project-docs/spec-service/prod-specification-service-swagger.json
+                   
+               
+        contacts:
+                - type: email
+                  id: "Scott K. Brons <skbrons@spscommerce.com>"
+                  role: Sr. Development Manager
+                - type: email
+                  id: "Chris F. Ryan <cfryan@spscommerce.com>"
+                  role: Product Owner  

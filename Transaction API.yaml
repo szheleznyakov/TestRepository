@@ -1,0 +1,22 @@
+---
+schema_version: 1.0
+service:
+        name: Transaction API
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                    documentation: 
+                    - url: https://transaction-api.commercevan.com/spec
+                   
+               
+        contacts:
+                - type: email
+                  id: "Alexandr Ivakhnenko <aivakhnenko@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Nathaniel R. Andersen <nrandersen@spscommerce.com>"
+                  role: Product Owner

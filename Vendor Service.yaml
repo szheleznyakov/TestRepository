@@ -1,0 +1,21 @@
+---
+schema_version: 1.0
+service:
+        name: Vendor Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.txt"
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: http://vendor.spsc.io/swagger.json
+                   
+               
+        contacts:
+                - type: email
+                  id: "Ian McClennan <imcclennan@spscommerce.com>"
+                  role: Sr. Development Manager
+                - type: email
+                  id: "Arjun Srinivas <asrinivas@spscommerce.com>"
+                  role: Product Owner

@@ -1,0 +1,24 @@
+---
+schema_version: 1.0
+#no repository yet
+service:
+        name: Image Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+        Serves images and allows for resizing
+        
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: Not yet created
+                   
+               
+        contacts:
+                - type: email
+                  id: "Valentin Kornukh <vkornukh@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Amy Jones <aejones@spscommerce.com>"
+                  role: Product Owner

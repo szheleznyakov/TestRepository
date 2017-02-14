@@ -1,0 +1,24 @@
+---
+schema_version: 1.0
+service:
+        name: 1Screen Central Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+         Centralized set of composite 1Screen platform services for Identity, Usage, Exception, Client and User data.
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                    documentation: 
+                    - url: https://spscommerce.atlassian.net/wiki/pages/viewpage.action?pageId=93618573
+                      type: free form
+                   
+               
+        contacts:
+                - type: email
+                  id: "Jason Montgomery <jmontgomery@spscommerce.com>"
+                  role: Director, Technology
+                - type: email
+                  id: "Sanjay Singh <ssingh@spscommerce.com>"
+                  role: Product Owner

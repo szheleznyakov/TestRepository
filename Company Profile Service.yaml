@@ -1,0 +1,22 @@
+---
+schema_version: 1.0
+service:
+        name: Company Profile Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://profile-service.api.spsdev.in/api/api-docs?format=openapi
+                   
+               
+        contacts:
+                - type: email
+                  id: "Valentin Kornukh <vkornukh@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Amy Jones <aejones@spscommerce.com>"
+                  role: Product Owner

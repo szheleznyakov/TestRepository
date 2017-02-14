@@ -1,0 +1,23 @@
+---
+schema_version: 1.0
+service:
+        name: Email Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+        Email service is a core SPS Platform service. It abstracts sending of emails to be provider agnostic. 
+        It supports the use of email templates that provide consistency of vision for email correspondence.
+
+        https://3vx57okor8.execute-api.us-east-1.amazonaws.com/v1_1_2
+
+        documentation:
+                type: free-form
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://daknuc9px8un5.cloudfront.net/project-docs/email-service/index.html
+                   
+               
+        contacts:
+                - type: email
+                  id: "Paul Decoursey <pjdecoursey@spscommerce.com>"
+                  role: Technical Lead

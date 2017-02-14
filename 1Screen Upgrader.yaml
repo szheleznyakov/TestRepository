@@ -1,0 +1,24 @@
+---
+schema_version: 1.0
+service:
+        name: 1Screen Upgrader
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+         Internal BDP service used to upgrade distributed clients that use the 1Screen Core API.
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                    documentation: 
+                    - url: 
+                      type: free form
+                   
+               
+        contacts:
+                - type: email
+                  id: "Jason Montgomery <jmontgomery@spscommerce.com>"
+                  role: Director, Technology
+                - type: email
+                  id: "Sanjay Singh <ssingh@spscommerce.com>"
+                  role: Product Owner

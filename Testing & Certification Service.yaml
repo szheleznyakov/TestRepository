@@ -1,0 +1,22 @@
+---
+schema_version: 1.0
+service:
+        name: Testing & Certification Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://tnc-bridge.spsc.io/docs/swagger.json
+                   
+               
+        contacts:
+                - type: email
+                  id: "Mike Bjerkness <mbjerkness@spscommerce.com>"
+                  role: Director, Technology
+                - type: email
+                  id: "Adam Ness <aness@spscommerce.com>"
+                  role: Product Owner

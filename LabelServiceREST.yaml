@@ -1,0 +1,29 @@
+---
+schema_version: 1.0
+service:
+        name: Label Service REST
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: >
+                This service allows:
+                    1. Managing Labels for trading partners
+                    2. Getting detailed information, including preview, etc. for existing entities
+                    3. Creating one standart entry point for all internal and external workflows
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://label.spsc.io/static/swagger.json
+                    - url: https://spscommerce.atlassian.net/wiki/display/LS/Label+REST+Service+Home
+                      type: free form
+               
+        contacts:
+                - type: email
+                  id: "Sergii Zhelezniakov <szheleznyakov@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Andrew Suslov <asuslov@spscommerce.com>"
+                  role: Sr. Software Engineer
+                - type: email
+                  id: "Mike Bjerkness <mbjerkness@spscommerce.com>"
+                  role: Director, Techhnology

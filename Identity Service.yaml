@@ -1,0 +1,29 @@
+---
+schema_version: 1.0
+service:
+        name: Identity Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description:
+        User authentication (OAuth protocol)
+        User authorization
+        Application Tokens
+        Service Tokens
+        Application Management (publish, subscribe, etc)
+        Organization Management (create, edit, etc)
+        SPS Active Directory integration
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://id.spsc.io/docs/api-docs/
+                   
+               
+        contacts:
+                - type: email
+                  id: "Mike Bjerkness <mbjerkness@spscommerce.com>"
+                  role: Director, Technology
+                - type: email
+                  id: "Anthony T. Thrasher <atthrasher@spscommerce.com>"
+                  role: Product Owner

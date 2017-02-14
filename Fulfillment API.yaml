@@ -1,0 +1,27 @@
+---
+schema_version: 1.0
+service:
+        name: Fulfillment API
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+                
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://github.com/SPSCommerce/fulfillment-api
+               
+        contacts:
+                - type: email
+                  id: "Sergii Zhelezniakov <szheleznyakov@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Arthur Arslanaliyev <aarslanaliyev@spscommerce.com>"
+                  role: Sr. Software Engineer
+                - type: email
+                  id: "Lisa Sacquitne <lmsacquitne@spscommerce.com>"
+                  role: Product Owner
+                - type: email
+                  id: "Wil T. Bublitz <wtbublitz@spscommerce.com>"
+                  role: Backlog Owner

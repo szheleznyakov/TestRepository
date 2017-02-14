@@ -1,0 +1,27 @@
+---
+schema_version: 1.0
+service:
+        name: Customer Configuration Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description:
+        The Customer Configuration Service (CCS) allows you to Create, Read, and Update records in DC4CONFIG. 
+        In its current state, it is optimized for Creating, Reading, and Updating entire DC4CONFIG "Setups". 
+        It does some fancy stuff turning the underlying relational data structure into a graph, which looks cool 
+        and actually has some interesting practical benefits that you, as a client, may enjoy (or be initially 
+        frustrated by -- swagger docs coming soon!)
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://github.com/SPSCommerce/company-migrator
+                   
+               
+        contacts:
+                - type: email
+                  id: "Jeremy E. Berg <jeberg@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Bill Gintz <wgintz@spscommerce.com>"
+                  role: Product Owner

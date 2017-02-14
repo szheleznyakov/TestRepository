@@ -1,0 +1,21 @@
+---
+schema_version: 1.0
+service:
+        name: Parcel Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.txt"
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://parcel.api.spsdev.in/swagger.json
+                   
+               
+        contacts:
+                - type: email
+                  id: "Jeremy E. Berg <jeberg@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Bill Gintz <wgintz@spscommerce.com>"
+                  role: Product Owner

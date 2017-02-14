@@ -1,0 +1,20 @@
+
+---
+schema_version: 1.0
+service:
+        name: Tri-Lambda
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+
+        documentation:
+                type: free-form 
+        versions:
+                - version: 2.2.2
+                    documentation: 
+                    - url: https://daknuc9px8un5.cloudfront.net/project-docs/lambda-lambda-lambda/v2.2.2/README.md.html
+                   
+               
+        contacts:
+                - type: email
+                  id: "Paul Decoursey <pjdecoursey@spscommerce.com>"
+                  role: Technical Lead

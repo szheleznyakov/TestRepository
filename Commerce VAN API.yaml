@@ -1,0 +1,22 @@
+---
+schema_version: 1.0
+service:
+        name: Commerce VAN API
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: >
+                The Commerce VAN API serves to provide an interface by which peered applications or clients can access their transactional information.
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://api.commercevan.com/api/swagger/docs/v1
+                   
+               
+        contacts:
+                - type: email
+                  id: "Alexandr Ivakhnenko <aivakhnenko@spscommerce.com>"
+                  role: Development Manager
+                - type: email
+                  id: "Nathaniel R. Andersen <nrandersen@spscommerce.com>"
+                  role: Product Owner

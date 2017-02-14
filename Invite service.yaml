@@ -1,0 +1,19 @@
+---
+schema_version: 1.0
+service:
+        name: Invite service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: "@Readme.md"
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                  documentation: 
+                    - url: https://invite.svc.spsprod.in/docs/
+                   
+               
+        contacts:
+                - type: email
+                  id: "Mike Bjerkness <mbjerkness@spscommerce.com>"
+                  role: Director, Technology

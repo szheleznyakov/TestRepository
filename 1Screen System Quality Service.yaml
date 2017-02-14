@@ -1,0 +1,25 @@
+---
+schema_version: 1.0
+service:
+        name: 1Screen System Quality Service
+        # description could reference a file in repository by using format "@path/to/file.md"
+        description: 
+         Internal service used to execute and validate a series of standardized health checks against a 1Screen datamart post data load.
+
+        documentation:
+                type: swagger
+        versions:
+                - version: 1.0
+                    documentation: 
+                    - url: http://1screen-system-quality.spsc.io/swagger/
+                    - url: https://spscommerce.atlassian.net/wiki/pages/viewpage.action?pageId=93618577
+                      type: free form
+                   
+               
+        contacts:
+                - type: email
+                  id: "Jason Montgomery <jmontgomery@spscommerce.com>"
+                  role: Director, Technology
+                - type: email
+                  id: "Sanjay Singh <ssingh@spscommerce.com>"
+                  role: Product Owner
